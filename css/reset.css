@@ -1,0 +1,65 @@
+@charset "utf-8";
+
+/* 追記 */
+* {
+	box-sizing: border-box;
+}
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,figure,input,textarea,p,blockquote,th,td {
+	margin:0;
+	padding:0;
+}
+
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+
+fieldset,img {
+	border:0;
+}
+
+address,caption,cite,code,dfn,em,strong,th,var {
+	font-style:normal;
+	font-weight:normal;
+}
+
+ol,ul {
+	list-style:none;
+}
+
+/* 追記 */
+a {
+	text-decoration: none;
+}
+
+caption,th {
+	text-align:left;
+}
+
+img {
+	vertical-align: bottom;	
+	max-width: 100%;
+	/* サファリで見たときに画像が伸びるため記述しておく */
+	/* display: block;
+	width: 100%; */
+	height: auto;
+}
+
+/* .index img {
+	display: block;
+	width: 100%;
+	height: auto;
+} */
+
+p {
+	line-break: strict;
+}
+
+/*clearfix-------------------------------*/
+
+.clearfix:after {
+	content:"";
+	display:block;
+	clear:both;
+}
